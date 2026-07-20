@@ -4,14 +4,21 @@ body {
   background: #0b132b;
   color: #fff7d6;
   font-family: Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ 
+
+
 }
 
 .hero {
   text-align: center;
   padding: 40px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
